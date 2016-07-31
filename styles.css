@@ -1,3 +1,8 @@
 body {
   background-color: blue;
 }
+
+img {
+  max-width: 75%;
+
+}
