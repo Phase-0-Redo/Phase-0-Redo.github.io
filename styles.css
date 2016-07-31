@@ -4,5 +4,9 @@ body {
 
 img {
   max-width: 75%;
+}
 
+.intro {
+  margin: 10px;
+  text-align: center;
 }
