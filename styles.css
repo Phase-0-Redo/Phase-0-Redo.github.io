@@ -18,7 +18,25 @@ img {
   display: inline-block;
 }
 
-.table {
+table {
+  size: 90%;
+  border: 1px solid black;
+  border-width: medium;
+  background-color: white;
   background-image: url(coffee_beans.jpg);
-  background-size: 75%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 10%;
 }
+
+table th {
+  background-color: white;
+  opacity: .5;
+}
+
+table td {
+  background-color: white;
+  opacity: .4;
+}
+
+
