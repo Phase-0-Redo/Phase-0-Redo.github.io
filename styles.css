@@ -4,6 +4,8 @@ body {
 
 img {
   max-width: 75%;
+  display: block;
+  margin: auto;
 }
 
 .intro {
@@ -32,6 +34,7 @@ table {
 table th {
   background-color: white;
   opacity: .5;
+
 }
 
 table td {
