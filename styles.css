@@ -8,7 +8,7 @@ body {
   margin: auto;
 }
 
-.cherries img {
+.cherries #coffee {
   max-width: 75%;
   display: block;
   margin: auto;
@@ -16,8 +16,7 @@ body {
 
 .intro {
   margin: 10px;
-  text-align: center;
-  
+  text-align: center; 
 }
 
 .intro ol {
