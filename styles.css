@@ -17,3 +17,8 @@ img {
   text-align: center;
   display: inline-block;
 }
+
+.table {
+  background-image: url(coffee_beans.jpg);
+  background-size: 75%;
+}
