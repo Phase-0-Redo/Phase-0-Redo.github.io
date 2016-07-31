@@ -1,0 +1,42 @@
+body {
+  background-color: blue;
+}
+
+img {
+  max-width: 75%;
+}
+
+.intro {
+  margin: 10px;
+  text-align: center;
+  
+}
+
+.intro ol {
+  list-style-type: none;
+  text-align: center;
+  display: inline-block;
+}
+
+table {
+  size: 90%;
+  border: 1px solid black;
+  border-width: medium;
+  background-color: white;
+  background-image: url(coffee_beans.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 10%;
+}
+
+table th {
+  background-color: white;
+  opacity: .5;
+}
+
+table td {
+  background-color: white;
+  opacity: .4;
+}
+
+
