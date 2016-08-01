@@ -3,6 +3,7 @@
       <head>
         <title>Coffee</title>
         <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" type="text/css" href="styles.css">
       </head>
 
@@ -19,11 +20,14 @@
           </div>
   
           <div class="cherries">
+<<<<<<< HEAD
             <h2>An image of coffee cherries</h2>
+=======
+>>>>>>> coffee
             <img id="coffee" src="picking_coffee.jpeg" alt="coffee cherries">
             <footer><p>Credit: mali maeder</p></footer>
-            <footer><a href="https://www.pexels.com/photo/  hand-fruits-rural-gardening-92354/">Pexels Image</a></  footer>
-            <footer><a href="https://www.pexels.com/photo-license/" >Creative Commons Zero (CC0)</a></footer>
+            <footer>Original Source:<a href="https://www.pexels.com/photo/  hand-fruits-rural-gardening-92354/">Pexels Image</a></  footer>
+            <footer>License: <a href="https://www.pexels.com/photo-license/" >Creative Commons Zero (CC0)</a></footer>
           </div>
   
           <div>
@@ -38,7 +42,15 @@
                       <option value="Bold">Bold</option>
                       <option value="Decaf">Decaf</option>
                     </select>
-                  </div>
+                </div>
+                <div>
+                  <label>Favorite Coffee:</label>
+                  <input type="text" name="favorite" placeholder="Favorite Coffee">
+                </div>
+                <div>
+                  Cups of Coffee per day (between 1 and 100)
+                  <input type="number" name="Cups of Coffee" min="0" max="100">
+                </div>
               </fieldset>
               <button type="submit">Coffee</button>
             </form>

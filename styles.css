@@ -8,6 +8,7 @@ body {
   margin: auto;
 }
 
+
 .cherries #coffee {
   max-width: 75%;
   display: block;
@@ -25,8 +26,7 @@ body {
   display: inline-block;
 }
 
-table {
-  size: 90%;
+table {  
   border: 1px solid black;
   border-width: medium;
   background-color: white;
