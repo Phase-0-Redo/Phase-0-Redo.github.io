@@ -53,7 +53,7 @@ table td {
   opacity: .4;
 }
 
-h1, h2 {
+h1, h2, h3 {
   font-family: helvetica;
 }
 
@@ -62,6 +62,18 @@ a:visited {
   background-color: brown;
 }
 
+.chan{
+  display: inline-block;
+  vertical-align: text-top;
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  text-align: center;
+  width: 100%;
+  background-color: white;
+  border-bottom: 1px solid black;
+  padding: 2px;
+}
 @media screen and (max-width: 800px) {
   video{width: 75%;}
   table {width: 90%;}
