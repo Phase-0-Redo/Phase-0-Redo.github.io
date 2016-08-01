@@ -1,5 +1,6 @@
 body {
   background-color: white;
+  margin-top: 200 px;
 }
 
 .cherries {
@@ -15,6 +16,11 @@ body {
   margin: auto;
 }
 
+.cherries footer {
+  display: inline-block;
+  vertical-align: ;
+}
+
 .intro {
   margin: 10px;
   text-align: center; 
@@ -27,13 +33,14 @@ body {
 }
 
 table {  
-  border: 1px solid black;
+  border: 3px solid black;
   border-width: medium;
   background-color: white;
   background-image: url(coffee_beans.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  margin: 10%;
+  margin: 5%;
+  
 }
 
 table th {
@@ -47,7 +54,7 @@ table td {
   opacity: .4;
 }
 
-h1, h2 {
+h1, h2, h3 {
   font-family: helvetica;
 }
 
@@ -56,6 +63,19 @@ a:visited {
   background-color: brown;
 }
 
+.chan{
+  
+  
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  text-align: center;
+  width: 100%;
+  background-color: white;
+  border-bottom: 1px solid black;
+  padding: 0px;
+}
 @media screen and (max-width: 800px) {
   video{width: 75%;}
+  table {width: 90%;}
 }
