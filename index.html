@@ -17,8 +17,8 @@
               </ol>
           </div>
   
-          <div>
-            <img src="picking_coffee.jpeg" alt="coffee cherries">
+          <div class="cherries">
+            <img id="coffee" src="picking_coffee.jpeg" alt="coffee cherries">
             <footer><p>Credit: mali maeder</p></footer>
             <footer><a href="https://www.pexels.com/photo/  hand-fruits-rural-gardening-92354/">Pexels Image</a></  footer>
             <footer><a href="https://www.pexels.com/photo-license/" >Creative Commons Zero (CC0)</a></footer>
@@ -35,7 +35,15 @@
                       <option value="Bold">Bold</option>
                       <option value="Decaf">Decaf</option>
                     </select>
-                  </div>
+                </div>
+                <div>
+                  <label>Favorite Coffee:</label>
+                  <input type="text" name="favorite" placeholder="Favorite Coffee">
+                </div>
+                <div>
+                  Cups of Coffee per day (between 1 and 100)
+                  <input type="number" name="Cups of Coffee" min="0" max="100">
+                </div>
               </fieldset>
               <button type="submit">Coffee</button>
             </form>
