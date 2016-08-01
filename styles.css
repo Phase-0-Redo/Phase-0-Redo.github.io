@@ -1,15 +1,23 @@
 body {
-  background-color: blue;
+  background-color: white;
 }
 
-img {
+.cherries {
+  display: block;
+  text-align: center;
+  margin: auto;
+}
+
+
+.cherries #coffee {
   max-width: 75%;
+  display: block;
+  margin: auto;
 }
 
 .intro {
   margin: 10px;
-  text-align: center;
-  
+  text-align: center; 
 }
 
 .intro ol {
@@ -18,8 +26,7 @@ img {
   display: inline-block;
 }
 
-table {
-  size: 90%;
+table {  
   border: 1px solid black;
   border-width: medium;
   background-color: white;
@@ -32,6 +39,7 @@ table {
 table th {
   background-color: white;
   opacity: .5;
+
 }
 
 table td {
@@ -39,4 +47,15 @@ table td {
   opacity: .4;
 }
 
+h1, h2 {
+  font-family: helvetica;
+}
 
+a:visited {
+  color: green;
+  background-color: brown;
+}
+
+@media screen and (max-width: 800px) {
+  video{width: 75%;}
+}
