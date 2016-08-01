@@ -15,6 +15,11 @@ body {
   margin: auto;
 }
 
+.cherries footer {
+  display: inline-block;
+  vertical-align: ;
+}
+
 .intro {
   margin: 10px;
   text-align: center; 
@@ -27,13 +32,14 @@ body {
 }
 
 table {  
-  border: 1px solid black;
+  border: 3px solid black;
   border-width: medium;
   background-color: white;
   background-image: url(coffee_beans.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  margin: 10%;
+  margin: 5%;
+  
 }
 
 table th {
@@ -58,4 +64,5 @@ a:visited {
 
 @media screen and (max-width: 800px) {
   video{width: 75%;}
+  table {width: 90%;}
 }
