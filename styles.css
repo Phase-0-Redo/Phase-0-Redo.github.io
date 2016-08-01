@@ -1,5 +1,6 @@
 body {
   background-color: white;
+  margin-top: 200 px;
 }
 
 .cherries {
@@ -63,8 +64,8 @@ a:visited {
 }
 
 .chan{
-  display: inline-block;
-  vertical-align: text-top;
+  
+  
   position: fixed;
   top: 0px;
   right: 0px;
@@ -72,7 +73,7 @@ a:visited {
   width: 100%;
   background-color: white;
   border-bottom: 1px solid black;
-  padding: 2px;
+  padding: 0px;
 }
 @media screen and (max-width: 800px) {
   video{width: 75%;}
